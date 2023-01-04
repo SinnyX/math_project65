@@ -17,7 +17,7 @@
 
     img {
       width: 100%;
-      max-width: 600px;
+      max-width: 800px;
     }
 
     .center {
@@ -52,8 +52,8 @@
 
   <div class="container">
     <div class="card mt-4 mb-8">
-      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-        <img src="public/img/1.jpg?v=<?php echo filemtime("public/img/1.jpg") ?>" class="card-img-top center img-fluid"/>
+      <div class="bg-image hover-overlay ripple mt-4" data-mdb-ripple-color="light">
+        <img src="public/img/1.jpeg?v=<?php echo filemtime("public/img/1.jpeg") ?>" class="card-img-top center img-fluid"/>
         <a href="#!">
           <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
         </a>
